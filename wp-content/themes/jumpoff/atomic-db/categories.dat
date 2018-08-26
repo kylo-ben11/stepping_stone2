@@ -1,0 +1,58 @@
+[
+    {
+        "category": "layout",
+        "order": 4
+    },
+    {
+        "category": "molecules",
+        "order": 11
+    },
+    {
+        "category": "organisms",
+        "order": 12
+    },
+    {
+        "category": "variables",
+        "order": 3
+    },
+    {
+        "category": "bootstrap",
+        "order": 2
+    },
+    {
+        "category": "vendor",
+        "order": 0
+    },
+    {
+        "category": "misc",
+        "order": 14
+    },
+    {
+        "category": "atomicHead",
+        "order": 1
+    },
+    {
+        "category": "siteHeadings",
+        "order": 7
+    },
+    {
+        "category": "siteButtons",
+        "order": 9
+    },
+    {
+        "category": "siteForms",
+        "order": 10
+    },
+    {
+        "category": "siteFonts",
+        "order": 6
+    },
+    {
+        "category": "siteColors",
+        "order": 5
+    },
+    {
+        "category": "siteLists",
+        "order": 8
+    }
+]

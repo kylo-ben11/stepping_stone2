@@ -1,0 +1,11 @@
+/* scss/siteLists/_unordered.scss */
+
+.ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li:before {
+    content: "• ";
+    font-size: 20px;/* or whatever the bullet size you prefer */
+  }
+}

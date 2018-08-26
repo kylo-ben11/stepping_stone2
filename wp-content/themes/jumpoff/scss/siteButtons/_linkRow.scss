@@ -1,0 +1,15 @@
+/* scss/siteButtons/_linkRow.scss */
+
+.linkRow{
+  a{
+    font-size: 14px;
+    &:after{
+      content: ",";
+    }
+    &:last-of-type{
+      &:after{
+        display: none;
+      }
+    }
+  }
+}

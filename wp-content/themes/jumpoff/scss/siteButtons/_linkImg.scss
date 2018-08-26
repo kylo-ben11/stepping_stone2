@@ -1,0 +1,22 @@
+/* scss/siteButtons/_linkImg.scss */
+
+
+.linkImg{
+  display: block;
+}
+
+.linkImg__img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.linkImg__text{
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+}

@@ -1,0 +1,27 @@
+/* scss/organisms/_photoGal.scss */
+
+.photoGal{
+  max-width: 675px;
+  position: relative;
+
+}
+
+.photoGal__footer{
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 55px;
+  .carousel-control{
+    position: relative;
+    width: 70px;
+    height: 55px;
+    display: inline-block;
+    opacity: 1;
+    text-shadow: none;
+  }
+  .carousel-control.right{
+    margin-left: -4px;
+  }
+}

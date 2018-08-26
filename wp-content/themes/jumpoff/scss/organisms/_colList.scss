@@ -1,0 +1,42 @@
+/* scss/organisms/_colList.scss */
+
+.colList{
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 60px;
+
+  &:last-of-type{
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-top: 60px;
+  }
+}
+
+
+.colList__heading{
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #707d85;
+}
+
+.colList__list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  column-count: 4;
+  li{
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and ( max-width: 896px ){
+  .colList__list{
+    column-count: 2;
+  }
+}
+
+@media only screen and ( max-width: 442px ){
+  .colList__list{
+    column-count: 1;
+  }
+}

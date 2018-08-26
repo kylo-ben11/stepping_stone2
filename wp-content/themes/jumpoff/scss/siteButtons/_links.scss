@@ -1,0 +1,24 @@
+/* scss/siteButtons/_links.scss */
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link{
+  transition: all .25s;
+  border-bottom: 1px solid;
+  font-weight: bold;
+  &:after{
+    content: "›";
+    margin-left: 5px;
+    transition: margin-left .25s;
+  }
+  &:hover{
+    border-bottom: 5px solid;
+    /*&:after{
+      margin-left: 10px;
+    }*/
+  }
+}
+

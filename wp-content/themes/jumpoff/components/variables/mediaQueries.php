@@ -1,0 +1,1 @@
+<!-- components/variables/mediaQueries.php -->

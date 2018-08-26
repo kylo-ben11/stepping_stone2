@@ -1,0 +1,9 @@
+/* scss/siteHeadings/_headingGroup.scss */
+
+.headingGroup{
+  text-align: center;
+  margin-bottom: $base*2;
+  .h1{
+    margin-bottom: 0;
+  }
+}

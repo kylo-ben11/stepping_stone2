@@ -1,0 +1,16 @@
+/* scss/siteHeadings/_lineHeading.scss */
+
+.lineHeading{
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  &:after{
+    content: "";
+    display: block;
+    height: 7px;
+    width: 80px;
+    margin: 40px auto 30px;
+  }
+}

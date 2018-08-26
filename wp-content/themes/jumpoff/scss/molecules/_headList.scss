@@ -1,0 +1,43 @@
+/* scss/molecules/_headList.scss */
+
+
+.headList__head{
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+.headList__list{
+  list-style: none;
+  padding: 0;
+  li{
+    margin-bottom: 30px;
+  }
+}
+
+
+.headList-1{
+  .headList__head{
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  .headList__list{
+    li{
+      font-size: 15px;
+      color: #fff;
+    }
+
+  }
+}
+
+
+.headList-2{
+  .headList__head{
+    font-size: 17px;
+    font-weight: bold;
+  }
+  .headList__list{
+    li{
+      font-size: 15px;
+    }
+  }
+}

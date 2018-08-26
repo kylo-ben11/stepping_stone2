@@ -1,0 +1,39 @@
+/* scss/molecules/_appLogo.scss */
+.appLogo {
+  text-align: center; }
+  .appLogo.appLogo-sml {
+    width: 168px;
+    margin: auto; }
+
+.appLogo__text span {
+  display: block;
+  line-height: 1; }
+
+.appLogo__bottom {
+  font-size: 24px;
+  color: #58585a; }
+
+.headerMainInner .appLogo-sml {
+  margin-top: -38px; }
+
+@media only screen and (max-width: 1067px) {
+  .headerMainInner .appLogo-sml {
+    margin-top: 30px; } }
+@media only screen and (max-width: 992px) {
+  .headerMainInner .appLogo-sml {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    width: 230px;
+    text-align: left;
+    margin-top: 10px; }
+    .headerMainInner .appLogo-sml .appLogo__logo {
+      float: left;
+      margin-right: 15px;
+      width: 56px; }
+    .headerMainInner .appLogo-sml .appLogo__text {
+      margin-top: 6px; }
+    .headerMainInner .appLogo-sml .appLogo__bottom {
+      font-size: 22px; } }
+
+/*# sourceMappingURL=_appLogo.css.map */

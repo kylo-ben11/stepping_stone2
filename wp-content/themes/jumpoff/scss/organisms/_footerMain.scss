@@ -1,0 +1,9 @@
+/*scss/organisms/_footerMain.scss*/
+
+.footerMain{
+  color:#fff;
+  padding: $base*3 $siteGutter $base*4;
+}
+.footerMain__inner{
+  @extend .wrap;
+}

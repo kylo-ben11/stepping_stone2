@@ -1,0 +1,16 @@
+/* scss/siteLists/_orderedlist.scss */
+
+.ol {
+  counter-reset: item;
+  padding: 0;
+  li{
+    display: block;
+    &:before{
+      content: counter(item) ". ";
+      counter-increment: item;
+      font-weight: bold;
+    }
+  }
+}
+
+
