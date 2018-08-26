@@ -4,11 +4,11 @@
 
 
 
-<<<<<<< HEAD
-<h1>This is a heading b*tch!</h1>
-=======
 
->>>>>>> b0299b8c296ea22e257e9024b003ef034c47da8c
+<h1>This is a heading b*tch!</h1>
+
+
+
 
 <?php if ( have_rows( 'home_sections' ) ): ?>
 	<?php while ( have_rows( 'home_sections' ) ) : the_row(); ?>
