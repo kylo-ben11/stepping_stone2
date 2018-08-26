@@ -5,10 +5,9 @@
             <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                 <em>index.php</em>
                 <br/><br/>
-<<<<<<< HEAD
+
                 <h1>This is a heading b*tch!</h1>
-=======
->>>>>>> b0299b8c296ea22e257e9024b003ef034c47da8c
+
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <?php the_excerpt(); ?>
                 <a href="<?php the_permalink() ?>">Read More</a>
@@ -64,17 +63,3 @@ if(function_exists('wp_pagenavi'))
     wp_reset_postdata();
 }
 ?>
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> b0299b8c296ea22e257e9024b003ef034c47da8c
