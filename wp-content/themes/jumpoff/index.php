@@ -6,7 +6,7 @@
                 <em>index.php</em>
                 <br/><br/>
 
-                <h1>Motherfucking headline test bitches</h1>
+                <h1>Motherfucking headline</h1>
 
                 <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
                 <?php the_excerpt(); ?>
